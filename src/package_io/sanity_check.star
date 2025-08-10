@@ -259,7 +259,7 @@ SUBCATEGORY_PARAMS = {
         "public_app_port",
         "network_name",
         "network_currency_name",
-        "network_currency_symbol,
+        "network_currency_symbol",
     ],
     "dora_params": [
         "image",
