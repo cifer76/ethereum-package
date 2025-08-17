@@ -528,7 +528,9 @@ def input_parser(plan, input_args):
             public_app_port=result["blockscout_params"]["public_app_port"],
             network_name=result["blockscout_params"]["network_name"],
             network_currency_name=result["blockscout_params"]["network_currency_name"],
-            network_currency_symbol=result["blockscout_params"]["network_currency_symbol"],
+            network_currency_symbol=result["blockscout_params"][
+                "network_currency_symbol"
+            ],
         ),
         dora_params=struct(
             image=result["dora_params"]["image"],
