@@ -263,7 +263,7 @@ def get_config_frontend(
         public_ports=FRONTEND_USED_PORTS,
         env_vars={
             "HOSTNAME": "0.0.0.0",
-            "NEXT_PUBLIC_API_PROTOCOL": "http",
+            "NEXT_PUBLIC_API_PROTOCOL": "https",
             "NEXT_PUBLIC_API_WEBSOCKET_PROTOCOL": "wss",
             "NEXT_PUBLIC_NETWORK_NAME": blockscout_params.network_name,
             "NEXT_PUBLIC_NETWORK_ID": network_params.network_id,
