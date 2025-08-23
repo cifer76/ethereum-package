@@ -280,7 +280,7 @@ def get_config_frontend(
             "NEXT_PUBLIC_HAS_BEACON_CHAIN": "true",
             "NEXT_PUBLIC_NETWORK_VERIFICATION_TYPE": "validation",
             "NEXT_PUBLIC_NETWORK_ICON": "https://ethpandaops.io/logo.png",
-            "NEXT_PUBLIC_APP_PROTOCOL": "http",
+            "NEXT_PUBLIC_APP_PROTOCOL": "https",
             "NEXT_PUBLIC_APP_HOST": blockscout_params.public_app_host,
             "NEXT_PUBLIC_APP_PORT": blockscout_params.public_app_port,
             "NEXT_PUBLIC_USE_NEXT_JS_PROXY": "true",
